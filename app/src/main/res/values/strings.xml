@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GitHub Demo</string>
+    <string name="description">Implementing MVP Pattern in this Application.</string>
+    <string name="get_next_quote">GET NEXT QUOTE</string>
 </resources>
