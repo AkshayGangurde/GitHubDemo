@@ -40,9 +40,7 @@ interface MainContract {
             fun onFinished(string: String)
         }
 
-        fun getNextQuote(listener: OnFinishedListener) {
-
-        }
+        fun getNextQuote(listener: OnFinishedListener)
     }
 
     interface MainPresenter {

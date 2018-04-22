@@ -14,7 +14,6 @@ class GetQuoteInteractorImpl : MainContract.GetQuoteInteractor {
     )
 
     override fun getNextQuote(listener: MainContract.GetQuoteInteractor.OnFinishedListener) {
-        super.getNextQuote(listener)
         Handler().postDelayed({ listener.onFinished(getRandomString()) }, 1200)
 
     }
